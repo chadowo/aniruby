@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency('minitest', ['~> 5.17.0'])
   spec.add_development_dependency('minitest-reporters', '~> 1.7.1')
-  spec.add_development_dependency('rake', ['~> 13.0.0'])
+  spec.add_development_dependency('rake', '~> 13.3.1')
 
   spec.metadata = {
     'bug_tracker_uri' => 'https://github.com/Chadowo/aniruby/issues',
