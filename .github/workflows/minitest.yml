@@ -7,7 +7,7 @@ jobs:
       - name: Install Gosu dependencies
         run: sudo apt-get update && sudo apt-get install -y libsdl2-dev libgl1-mesa-dev libfontconfig1-dev xvfb
 
-      - uses: actions/checkout@v6.0.3
+      - uses: actions/checkout@v7.0.1
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1.313.0
         with:
